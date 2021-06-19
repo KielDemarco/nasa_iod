@@ -62,6 +62,8 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+#AWS_ACCESS_KEY=
+#AWS_SECRET_ACCESS_KEY=
 ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1,
 }
