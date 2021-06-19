@@ -66,7 +66,7 @@ ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1,
 }
 
-IMAGES_STORE = '/home/<USERNAME>/Pictures/nasa'
+IMAGES_STORE = 'nasa'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
