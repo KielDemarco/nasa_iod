@@ -8,6 +8,6 @@ import scrapy
 
 class NasaIodItem(scrapy.Item):
     # define the fields for your item here like:
-    image_url = scrapy.Field()
+    image_urls = scrapy.Field()
     images = scrapy.Field()
     pass
