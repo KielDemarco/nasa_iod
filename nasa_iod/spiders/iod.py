@@ -1,6 +1,4 @@
 import scrapy
-import boto3
-import botocore
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.pipelines.images import ImagesPipeline

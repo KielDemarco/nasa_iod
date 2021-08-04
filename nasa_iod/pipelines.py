@@ -26,3 +26,6 @@ class NasaIodPipeline:
             if not image_paths:
                 raise DropItem("Item contains no images")
             return item
+class NASA_Pipeline(ImagesPipeline):
+    def file_path(self, request, response=None, info=None, *, item=None):
+        return request.url.split('/')[-1]

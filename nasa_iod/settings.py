@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 #AWS_ACCESS_KEY=
 #AWS_SECRET_ACCESS_KEY=
 ITEM_PIPELINES = {
-    'scrapy.pipelines.images.ImagesPipeline': 1,
+    'nasa_iod.pipelines.NASA_Pipeline': 1,
 }
 
 IMAGES_STORE = 'nasa'
